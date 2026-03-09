@@ -153,12 +153,12 @@ This project demonstrates practical analytical skills including:
 
 Fraud-Detection
 │
-├── fraud_analysis.ipynb        # Full exploratory analysis
-├── FraudShield_Banking_Data.csv
-├── fraud_bar.png
-├── fraud_box.png
-├── fraud_kde.png
-├── fraud_heatmap.png
+├── fraud_analysis.ipynb        # Jupyter notebook containing the analysis
+├── FraudShield_Banking_Data.csv # Dataset
+├── fraud_bar.png               # Fraud distribution chart
+├── fraud_box.png               # Transaction amount boxplot
+├── fraud_kde.png               # Distance from home density plot
+├── fraud_heatmap.png           # Feature correlation heatmap
 └── README.md
 
 ---
