@@ -17,8 +17,7 @@ The project was completed using Python and Jupyter Notebook.
 ## Example Analysis
 
 Below is an example visualisation from the exploratory analysis:
-
-![Fraud Analysis Example](images/fraud_heatmap.png)
+![Correlation Heatmap](charts/fraud_heatmap.png)
 
 ---
 
