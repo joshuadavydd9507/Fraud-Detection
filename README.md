@@ -137,3 +137,32 @@ This project demonstrates practical analytical skills including:
 ---
 
 ## Repository Structure
+
+fraud-analysis/
+│
+├── fraud_analysis.ipynb
+├── dataset.csv
+└── README.md
+
+## Future Iprovements
+
+
+---
+
+## Future Improvements
+
+Potential extensions of this project include:
+
+- Building a fraud prediction model
+- Applying classification algorithms (Logistic Regression, Random Forest)
+- Feature importance analysis
+- Model evaluation using precision, recall, and ROC-AUC
+- Fraud detection dashboard visualisation
+
+---
+
+## Author
+
+Joshua Garthwaite
+
+Aspiring Commercial / Data Analyst with a focus on applying analytical methods to real-world business problems.
