@@ -14,43 +14,11 @@ The goal of the project is to demonstrate a practical workflow for:
 
 The project was completed using Python and Jupyter Notebook.
 
----
+## Example Analysis
 
-## Dataset
+Below is an example visualisation from the exploratory analysis:
 
-The dataset contains **50,000 banking transactions** with variables describing transaction characteristics, customer behaviour, and fraud indicators.
-
-Example features include:
-
-- Transaction amount
-- Distance from customer home location
-- International transaction flag
-- Merchant novelty indicator
-- Failed transaction attempts
-- Previous fraud history
-- Daily and weekly transaction behaviour
-
-The target variable is:
-
-`Fraud_Label`
-
-which identifies whether a transaction is **Fraud** or **Normal**.
-
----
-
-## Methodology
-
-The analysis follows a structured exploratory data analysis workflow:
-
-1. Data Overview  
-2. Data Quality Assessment  
-3. Data Cleaning  
-4. Exploratory Data Analysis  
-5. Behavioural Pattern Investigation  
-6. Multivariate Feature Analysis  
-7. Summary of Key Findings  
-
-The objective is to identify behavioural indicators that may be associated with fraudulent transactions.
+![Fraud Analysis Example](images/fraud_heatmap.png)
 
 ---
 
@@ -108,6 +76,44 @@ The highest fraud rate occurs when transactions are **both international and inv
 The analysis suggests that fraud in this dataset is more strongly associated with **transaction context and behavioural indicators** rather than transaction magnitude or location distance.
 
 Variables such as **international transaction status** appear to provide more meaningful signals than transaction size or distance from the customer's home.
+
+---
+
+## Dataset
+
+This dataset is a synthetic banking transaction dataset commonly used for fraud detection analysis and machine learning practice.The dataset contains **50,000 banking transactions** with variables describing transaction characteristics, customer behaviour, and fraud indicators.
+
+Example features include:
+
+- Transaction amount
+- Distance from customer home location
+- International transaction flag
+- Merchant novelty indicator
+- Failed transaction attempts
+- Previous fraud history
+- Daily and weekly transaction behaviour
+
+The target variable is:
+
+`Fraud_Label`
+
+which identifies whether a transaction is **Fraud** or **Normal**.
+
+---
+
+## Methodology
+
+The analysis follows a structured exploratory data analysis workflow:
+
+1. Data Overview  
+2. Data Quality Assessment  
+3. Data Cleaning  
+4. Exploratory Data Analysis  
+5. Behavioural Pattern Investigation  
+6. Multivariate Feature Analysis  
+7. Summary of Key Findings  
+
+The objective is to identify behavioural indicators that may be associated with fraudulent transactions.
 
 ---
 
