@@ -17,25 +17,16 @@ The project was completed using Python and Jupyter Notebook.
 ## Example Analysis
 
 ### Fraud Distribution
-<p align="center">
-  <img src="charts/fraud_bar.png" width="600">
-</p>
+![Fraud Distribution](fraud_bar.png)
 
 ### Transaction Amount Distribution
-<p align="center">
-  <img src="charts/fraud_box.png" width="600">
-</p>
+![Transaction Amount](fraud_box.png)
 
 ### Distance From Home Distribution
-<p align="center">
-  <img src="charts/fraud_kde.png" width="600">
-</p>
+![Distance KDE](fraud_kde.png)
 
 ### Correlation Heatmap
-<p align="center">
-  <img src="charts/fraud_heatmap.png" width="700">
-</p>
-
+![Correlation Heatmap](fraud_heatmap.png)
 ---
 
 ## Key Findings
