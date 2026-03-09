@@ -35,6 +35,7 @@ The project was completed using Python and Jupyter Notebook.
 <p align="center">
   <img src="charts/fraud_heatmap.png" width="700">
 </p>
+
 ---
 
 ## Key Findings
