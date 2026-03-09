@@ -144,9 +144,6 @@ fraud-analysis/
 ├── dataset.csv
 └── README.md
 
-## Future Iprovements
-
-
 ---
 
 ## Future Improvements
