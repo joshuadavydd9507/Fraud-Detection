@@ -153,14 +153,13 @@ This project demonstrates practical analytical skills including:
 
 Fraud-Detection
 │
-├── fraud_analysis.ipynb # Full exploratory analysis
+├── fraud_analysis.ipynb        
 ├── FraudShield_Banking_Data.csv
 ├── fraud_bar.png
 ├── fraud_box.png
 ├── fraud_kde.png
 ├── fraud_heatmap.png
 └── README.md
-
 ---
 
 ## Future Improvements
