@@ -164,5 +164,3 @@ Potential extensions of this project include:
 ## Author
 
 Joshua Garthwaite
-
-Aspiring Commercial / Data Analyst with a focus on applying analytical methods to real-world business problems.
