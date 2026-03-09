@@ -16,11 +16,25 @@ The project was completed using Python and Jupyter Notebook.
 
 ## Example Analysis
 
-Below is an example visualisation from the exploratory analysis:
+### Fraud Distribution
+<p align="center">
+  <img src="charts/fraud_bar.png" width="600">
+</p>
+
+### Transaction Amount Distribution
+<p align="center">
+  <img src="charts/fraud_box.png" width="600">
+</p>
+
+### Distance From Home Distribution
+<p align="center">
+  <img src="charts/fraud_kde.png" width="600">
+</p>
+
+### Correlation Heatmap
 <p align="center">
   <img src="charts/fraud_heatmap.png" width="700">
 </p>
-
 ---
 
 ## Key Findings
