@@ -1,122 +1,139 @@
 # Fraud Detection Exploratory Data Analysis
-Project Overview
 
-This project explores a synthetic banking transaction dataset to identify behavioural patterns associated with fraudulent transactions. The analysis focuses on understanding which transaction characteristics are most strongly related to fraud occurrence through structured exploratory data analysis (EDA).
+## Project Overview
 
-The goal of the project is to demonstrate a practical workflow for data cleaning, exploratory analysis, feature investigation, and fraud risk identification.
+This project explores a banking transaction dataset to identify behavioural patterns associated with fraudulent transactions. The analysis focuses on understanding which transaction characteristics are most strongly related to fraud occurrence through structured exploratory data analysis (EDA).
 
-Dataset
+The goal of the project is to demonstrate a practical workflow for:
 
-The dataset contains 50,000 banking transactions with variables describing transaction characteristics, customer behaviour, and fraud indicators.
+- Data cleaning
+- Exploratory data analysis
+- Feature investigation
+- Fraud risk identification
+- Analytical interpretation
+
+The project was completed using Python and Jupyter Notebook.
+
+---
+
+## Dataset
+
+The dataset contains **50,000 banking transactions** with variables describing transaction characteristics, customer behaviour, and fraud indicators.
 
 Example features include:
 
-Transaction amount
-
-Distance from customer home location
-
-International transaction flag
-
-Merchant novelty indicator
-
-Failed transaction attempts
-
-Previous fraud history
+- Transaction amount
+- Distance from customer home location
+- International transaction flag
+- Merchant novelty indicator
+- Failed transaction attempts
+- Previous fraud history
+- Daily and weekly transaction behaviour
 
 The target variable is:
 
-Fraud_Label
+`Fraud_Label`
 
-which identifies whether a transaction is fraudulent or legitimate.
+which identifies whether a transaction is **Fraud** or **Normal**.
 
-Methodology
+---
 
-The analysis follows a structured EDA workflow:
+## Methodology
 
-Data Overview
+The analysis follows a structured exploratory data analysis workflow:
 
-Data Quality Assessment
+1. Data Overview  
+2. Data Quality Assessment  
+3. Data Cleaning  
+4. Exploratory Data Analysis  
+5. Behavioural Pattern Investigation  
+6. Multivariate Feature Analysis  
+7. Summary of Key Findings  
 
-Data Cleaning
+The objective is to identify behavioural indicators that may be associated with fraudulent transactions.
 
-Exploratory Data Analysis
+---
 
-Behavioural Pattern Investigation
+## Key Findings
 
-Multivariate Feature Analysis
+### Fraud prevalence
 
-Key Insight Summary
+Fraudulent transactions represent approximately **4–5% of the dataset**, indicating a moderately imbalanced dataset.
 
-Techniques used include:
+---
 
-descriptive statistics
+### Transaction amount
 
-grouped aggregation
+Transaction amount distributions for fraudulent and legitimate transactions are nearly identical. Both the statistical summaries and distribution visualisations show similar medians and ranges.
 
-cross-tab analysis
+This suggests that **transaction value alone is not a strong indicator of fraud** in this dataset.
 
-distribution visualisation
+---
 
-correlation analysis
+### Distance from home
 
-Key Findings
-Fraud prevalence
+Distance from the customer’s home location shows **very similar distributions between fraudulent and legitimate transactions**. Median values differ only slightly and the density curves overlap substantially.
 
-Fraudulent transactions represent approximately 4–5% of the dataset, indicating a moderately imbalanced dataset.
+This indicates that **transaction distance does not meaningfully distinguish fraudulent behaviour in this dataset**.
 
-Transaction amount
+---
 
-Transaction amount distributions are nearly identical for fraudulent and legitimate transactions, suggesting transaction value alone is not a reliable fraud indicator.
+### International transactions
 
-Distance from home
+International transactions demonstrate **higher fraud rates compared to domestic transactions**.
 
-Distance from the customer’s home location shows very similar distributions across fraud and normal transactions, indicating minimal predictive value in this dataset.
+Approximate fraud rates observed:
 
-International transactions
+- Domestic transactions: **~3–4%**
+- International transactions: **~6%**
 
-International transactions exhibit significantly higher fraud rates compared to domestic transactions:
+This suggests that **international transaction context represents elevated fraud risk**.
 
-Domestic fraud rate ≈ 3–4%
-International fraud rate ≈ ~6%
+---
 
-This suggests international transactions represent elevated fraud risk.
+### Merchant novelty
 
-Merchant novelty
+Transactions involving **new merchants do not significantly increase fraud risk independently**. Fraud rates remain relatively similar between transactions involving new merchants and those with existing merchants.
 
-Transactions with new merchants do not show a strong independent relationship with fraud risk.
+---
 
-Combined risk signals
+### Combined behavioural signals
 
-The highest fraud rate occurs when transactions are both international and involve new merchants, although the increase appears primarily driven by international transaction status.
+The highest fraud rate occurs when transactions are **both international and involve new merchants**, although the increase appears primarily driven by the international transaction factor.
 
-Tools & Libraries
+---
 
-Python libraries used:
+### Overall conclusion
 
-Pandas
+The analysis suggests that fraud in this dataset is more strongly associated with **transaction context and behavioural indicators** rather than transaction magnitude or location distance.
 
-NumPy
+Variables such as **international transaction status** appear to provide more meaningful signals than transaction size or distance from the customer's home.
 
-Matplotlib
+---
 
-Seaborn
+## Tools & Libraries
 
-Jupyter Notebook
+The analysis was conducted using Python and the following libraries:
 
-Project Skills Demonstrated
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-This project demonstrates practical skills in:
+---
 
-Data cleaning
+## Project Skills Demonstrated
 
-Exploratory data analysis
+This project demonstrates practical analytical skills including:
 
-Feature investigation
+- Data cleaning and preparation
+- Exploratory data analysis (EDA)
+- Hypothesis-driven feature investigation
+- Fraud risk segmentation
+- Data visualisation
+- Analytical interpretation and reporting
 
-Behavioural pattern detection
+---
 
-Fraud risk segmentation
-
-Data visualisation
-
-Analytical interpretation
+## Repository Structure
